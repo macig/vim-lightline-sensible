@@ -1,6 +1,6 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Configs
-let s:percentChars = [
+let s:percentChars = get(g:, "lightline#sensible#percent_chars", [
   \   "\u25CF       ",
   \   "\u25CF\u25CF      ",
   \   "\u25CF\u25CF\u25CF     ",
@@ -9,7 +9,7 @@ let s:percentChars = [
   \   "\u25CF\u25CF\u25CF\u25CF\u25CF\u25CF  ",
   \   "\u25CF\u25CF\u25CF\u25CF\u25CF\u25CF\u25CF ",
   \   "\u25CF\u25CF\u25CF\u25CF\u25CF\u25CF\u25CF\u25CF"
-  \ ]
+  \ ])
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Lightline components
